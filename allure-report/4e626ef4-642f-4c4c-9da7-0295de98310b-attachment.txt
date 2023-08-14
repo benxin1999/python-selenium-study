@@ -1,0 +1,52 @@
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+ERROR    log:base_page.py:27 ('css selector', 'a[href="#/app/register"]') fails to locate, error info: Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00007FF7C74A4A62+57106]
+	(No symbol) [0x00007FF7C741CF52]
+	(No symbol) [0x00007FF7C72EE2CB]
+	(No symbol) [0x00007FF7C732786E]
+	(No symbol) [0x00007FF7C732795C]
+	(No symbol) [0x00007FF7C7360477]
+	(No symbol) [0x00007FF7C73469FF]
+	(No symbol) [0x00007FF7C735E522]
+	(No symbol) [0x00007FF7C7346793]
+	(No symbol) [0x00007FF7C731CE81]
+	(No symbol) [0x00007FF7C731E064]
+	GetHandleVerifier [0x00007FF7C7754222+2873042]
+	GetHandleVerifier [0x00007FF7C77A6590+3209792]
+	GetHandleVerifier [0x00007FF7C779F3AF+3180639]
+	GetHandleVerifier [0x00007FF7C7535F25+652245]
+	(No symbol) [0x00007FF7C7428618]
+	(No symbol) [0x00007FF7C74247C4]
+	(No symbol) [0x00007FF7C74248BC]
+	(No symbol) [0x00007FF7C7414C33]
+	BaseThreadInitThunk [0x00007FF9FB7B26AD+29]
+	RtlUserThreadStart [0x00007FF9FC66AA68+40]
+
+INFO     log:base_page.py:29 Re-locationg the location, current time: 1
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+ERROR    log:base_page.py:27 ('css selector', 'a[href="#/app/register"]') fails to locate, error info: Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00007FF7C74A4A62+57106]
+	(No symbol) [0x00007FF7C741CF52]
+	(No symbol) [0x00007FF7C72EE2CB]
+	(No symbol) [0x00007FF7C732786E]
+	(No symbol) [0x00007FF7C732795C]
+	(No symbol) [0x00007FF7C7360477]
+	(No symbol) [0x00007FF7C73469FF]
+	(No symbol) [0x00007FF7C735E522]
+	(No symbol) [0x00007FF7C7346793]
+	(No symbol) [0x00007FF7C731CE81]
+	(No symbol) [0x00007FF7C731E064]
+	GetHandleVerifier [0x00007FF7C7754222+2873042]
+	GetHandleVerifier [0x00007FF7C77A6590+3209792]
+	GetHandleVerifier [0x00007FF7C779F3AF+3180639]
+	GetHandleVerifier [0x00007FF7C7535F25+652245]
+	(No symbol) [0x00007FF7C7428618]
+	(No symbol) [0x00007FF7C74247C4]
+	(No symbol) [0x00007FF7C74248BC]
+	(No symbol) [0x00007FF7C7414C33]
+	BaseThreadInitThunk [0x00007FF9FB7B26AD+29]
+	RtlUserThreadStart [0x00007FF9FC66AA68+40]

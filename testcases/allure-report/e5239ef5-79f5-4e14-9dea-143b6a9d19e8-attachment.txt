@@ -1,0 +1,14 @@
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:45 Click the button: ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsRegMobile')
+INFO     log:base_page.py:38 The input text is: 13098740920
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsSendCode')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsSendCode')
+INFO     log:mysql_util.py:24 Executing SQL statement select code from users_verifycode where mobile = 13098740920 order by id desc limit 1;
+INFO     log:mysql_util.py:27 The result of the query is "{'code': '6552'}"
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegCaptcha')
+INFO     log:base_page.py:38 The input text is: 6552
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegPwd')
+INFO     log:base_page.py:38 The input text is: 123455
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsMobileRegBtn')

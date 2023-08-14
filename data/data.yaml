@@ -1,0 +1,7 @@
+register_ok:
+  mobile: 15284391093
+  password: 123455
+
+register_wrong_code:
+  mobile: 15282369109
+  password: 123455

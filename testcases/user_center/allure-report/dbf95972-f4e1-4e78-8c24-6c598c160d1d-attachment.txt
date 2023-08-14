@@ -1,0 +1,66 @@
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:45 Click the button: ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsRegMobile')
+INFO     log:base_page.py:38 The input text is: 18889229410
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsSendCode')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsSendCode')
+INFO     log:mysql_util.py:24 Executing SQL statement select code from users_verifycode where mobile = 18889229410 order by id desc limit 1;
+INFO     log:mysql_util.py:27 The result of the query is "{'code': '4276'}"
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegCaptcha')
+INFO     log:base_page.py:38 The input text is: 4276
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegPwd')
+INFO     log:base_page.py:38 The input text is: 123455
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:19 Locationg the element ('xpath', 'a[@href="#/app/home/member/userinfo"]')
+ERROR    log:base_page.py:27 ('xpath', 'a[@href="#/app/home/member/userinfo"]') fails to locate, error info: Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00007FF73F9C4A62+57106]
+	(No symbol) [0x00007FF73F93CF52]
+	(No symbol) [0x00007FF73F80E2CB]
+	(No symbol) [0x00007FF73F84786E]
+	(No symbol) [0x00007FF73F84795C]
+	(No symbol) [0x00007FF73F880477]
+	(No symbol) [0x00007FF73F8669FF]
+	(No symbol) [0x00007FF73F87E522]
+	(No symbol) [0x00007FF73F866793]
+	(No symbol) [0x00007FF73F83CE81]
+	(No symbol) [0x00007FF73F83E064]
+	GetHandleVerifier [0x00007FF73FC74222+2873042]
+	GetHandleVerifier [0x00007FF73FCC6590+3209792]
+	GetHandleVerifier [0x00007FF73FCBF3AF+3180639]
+	GetHandleVerifier [0x00007FF73FA55F25+652245]
+	(No symbol) [0x00007FF73F948618]
+	(No symbol) [0x00007FF73F9447C4]
+	(No symbol) [0x00007FF73F9448BC]
+	(No symbol) [0x00007FF73F934C33]
+	BaseThreadInitThunk [0x00007FF9FB7B26AD+29]
+	RtlUserThreadStart [0x00007FF9FC66AA68+40]
+
+INFO     log:base_page.py:29 Re-locationg the location, current time: 1
+INFO     log:base_page.py:19 Locationg the element ('xpath', 'a[@href="#/app/home/member/userinfo"]')
+ERROR    log:base_page.py:27 ('xpath', 'a[@href="#/app/home/member/userinfo"]') fails to locate, error info: Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00007FF73F9C4A62+57106]
+	(No symbol) [0x00007FF73F93CF52]
+	(No symbol) [0x00007FF73F80E2CB]
+	(No symbol) [0x00007FF73F84786E]
+	(No symbol) [0x00007FF73F84795C]
+	(No symbol) [0x00007FF73F880477]
+	(No symbol) [0x00007FF73F8669FF]
+	(No symbol) [0x00007FF73F87E522]
+	(No symbol) [0x00007FF73F866793]
+	(No symbol) [0x00007FF73F83CE81]
+	(No symbol) [0x00007FF73F83E064]
+	GetHandleVerifier [0x00007FF73FC74222+2873042]
+	GetHandleVerifier [0x00007FF73FCC6590+3209792]
+	GetHandleVerifier [0x00007FF73FCBF3AF+3180639]
+	GetHandleVerifier [0x00007FF73FA55F25+652245]
+	(No symbol) [0x00007FF73F948618]
+	(No symbol) [0x00007FF73F9447C4]
+	(No symbol) [0x00007FF73F9448BC]
+	(No symbol) [0x00007FF73F934C33]
+	BaseThreadInitThunk [0x00007FF9FB7B26AD+29]
+	RtlUserThreadStart [0x00007FF9FC66AA68+40]

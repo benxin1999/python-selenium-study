@@ -1,0 +1,8 @@
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:45 Click the button: ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsRegMobile')
+INFO     log:base_page.py:38 The input text is: 15282969109
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsSendCode')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsSendCode')
+INFO     log:base_page.py:19 Locationg the element ('xpath', '//*[@id="mobile_register_form"]/p[1]')
+INFO     log:base_page.py:87 Text of the element is: 用户已经存在

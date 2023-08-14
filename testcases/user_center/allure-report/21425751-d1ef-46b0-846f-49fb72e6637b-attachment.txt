@@ -1,0 +1,19 @@
+INFO     log:base_page.py:19 Locationg the element ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:45 Click the button: ('css selector', 'a[href="#/app/register"]')
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsRegMobile')
+INFO     log:base_page.py:38 The input text is: 18712421241
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsSendCode')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsSendCode')
+INFO     log:mysql_util.py:24 Executing SQL statement select code from users_verifycode where mobile = 18712421241 order by id desc limit 1;
+INFO     log:mysql_util.py:27 The result of the query is "{'code': '9385'}"
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegCaptcha')
+INFO     log:base_page.py:38 The input text is: 9385
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsPhoneRegPwd')
+INFO     log:base_page.py:38 The input text is: 123455
+INFO     log:base_page.py:19 Locationg the element ('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:45 Click the button: ('id', 'jsMobileRegBtn')
+INFO     log:base_page.py:19 Locationg the element ('xpath', '//a[@href="#/app/home/member/userinfo"]')
+INFO     log:base_page.py:87 Text of the element is: 18712421241
+INFO     log:mysql_util.py:39 执行SQL:delete from user_userprofile where username = 18712421241
+INFO     log:mysql_util.py:43 执行SQL出错:delete from user_userprofile where username = 18712421241
+INFO     log:conftest.py:8 执行SQLdelete from user_userprofile where username = 18712421241
